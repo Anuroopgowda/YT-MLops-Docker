@@ -1,0 +1,8 @@
+1. create a basic python flask code
+2. add a dockerfile add the specific commands given
+3. setup account on dockerhub and download and setup the docker destop application.
+4. To build a docker image use "docker build -t <tag name>"
+5. to run the container need to map the port use command "docker build -p 5000:5000 <image name>"
+6. push the new docker image to the remote docker repo "docker push anuroopgowda441/my-first-app:latest1"
+7. pull from the remote dockerhub repo use "docker pull <image name>eg. anuroopgowda441/my-first-app"
+8. run the docker image "docker run -p 5000:5000 anuroopgowda441/my-first-app"
